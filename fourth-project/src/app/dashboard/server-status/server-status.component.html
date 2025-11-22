@@ -1,0 +1,27 @@
+<!-- <article>
+    <header>
+        <img src="status.png" alt="A Signal Symbol" />
+        <h2>Server Status</h2>
+    </header> -->
+
+
+<!-- <div is="status"> -->
+<div [class]="{
+            status:true ,
+            'status-online':currentStatus() === 'online',
+            'status-offline':currentStatus() === 'offline',
+            'status-unknown':currentStatus() === 'unKnown'
+        }">
+    @if(currentStatus() === 'online'){
+    <p>Servers are online</p>
+    <p>All Systems are Operational</p>
+    } @else if (currentStatus() === 'offline') {
+    <p>Servers are offline</p>
+    <p>Functionality should be restores soon.</p>
+    } @else {
+    <p>Server Status is unknown.</p>
+    <p>Fetching Server Status Failed.</p>
+    }
+</div>
+<!-- </div> -->
+<!-- </article> -->

@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+*{
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+   font-family: "Poppins" , sans-serif;
+    /* background-color:rgb(230, 223, 228); */
+    /* background-color:hsl(266, 79%, 13%); */
+    color:black;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+h2{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}

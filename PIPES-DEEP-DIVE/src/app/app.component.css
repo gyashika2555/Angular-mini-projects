@@ -1,0 +1,48 @@
+/* header img{
+    width: 50px;
+    height: 50px;
+} */
+
+/* app.component.css */
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #333;
+  height: 520px;
+  font-family: Arial, sans-serif;
+}
+
+.temperatures {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  flex: 1 1 300px;
+  min-width: 200px;}
+
+.temperatures header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  width: 300px;
+}
+
+.temperatures header img {
+  width: 48px;
+  height: 48px;
+  margin-right: 1rem;
+}
+
+.temperatures header h2 {
+  margin: 0;
+  font-size: 1.25rem;
+  color: #333;
+}
+
+.temperatures header p {
+  margin: 0;
+  font-size: 0.8
+}

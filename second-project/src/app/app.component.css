@@ -1,0 +1,26 @@
+main{
+    /* width: 110%; */
+    max-width: 70rem;
+    margin: 2.5 auto;
+    display: grid;
+    grid-auto-flow: row;
+    gap: 2rem;
+}
+#user{
+ list-style: none;
+ margin: 0;
+ padding: 0;
+ display: flex;
+ gap: 0.5rem;
+ width:40cm;
+}
+
+@media(min-width:768px){
+    main{
+        margin: 4rem auto;
+        grid-template-columns: 1fr 3fr;
+    }
+    #users{
+      flex-direction: column;
+    }
+}
